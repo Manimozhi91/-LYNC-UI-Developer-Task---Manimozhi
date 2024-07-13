@@ -1,0 +1,47 @@
+<header class="head-container">
+  <div class="container">
+    <div class="card">
+      <div class="picture">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wgWCZYpx_ff0A3-abXMOKv02MmG-SOJ53w&s" width="25" height="37" alt="pic">
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <a href="#" class="w3-btn w3-round-xlarge">Home</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <a href="https://docs.lync.world/" target="_blank" class="w3-btn w3-round-xlarge ">Documentation</a>        </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <a href="https://lyncworld.medium.com/"  target="_blank" class="w3-btn w3-round-xlarge">Blogs</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <a href="demo" class="w3-btn w3-border w3-round-xlarge">Request a Demo</a>
+      </div>
+    </div>
+    <div clas="card">
+      <div class="card-body">
+        <a routerLink="start"  class="w3-btn w3-white w3-border w3-round-xlarge">Getting Started 
+          <span>&#8594;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <router-outlet></router-outlet>
+
+</main>

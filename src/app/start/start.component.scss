@@ -1,0 +1,117 @@
+:host {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif; /* Added a default font family */
+  }
+  
+  .card-body-head {
+    display: flex;
+    font-size: 2rem; /* Adjusted font size for large screens */
+    font-weight: 1000;
+  }
+  
+  .card-body {
+    margin-top: 0.5rem; /* Adjusted margin for better spacing */
+  }
+  
+  .logo {
+    width: 100px; /* Example logo width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .card-logo {
+    display: flex;
+  }
+  
+  .para-container {
+    margin: auto;
+    
+    padding:  5%; /* Adjusted padding for better spacing */
+    max-width: 900px; /* Example maximum width for content */
+  }
+  
+  .para {
+    margin-top: 2rem; /* Adjusted margin top for better spacing */
+  }
+  
+  .para h1 {
+    font-size: 2.5rem; /* Adjusted font size for large screens */
+    font-weight: bold; /* Example font weight for h1 */
+    color: #f5f1f1; /* Example color for h1 */
+  }
+  
+  .para h3 {
+    font-size: 1.8rem; /* Adjusted font size for large screens */
+    font-weight: normal; /* Example font weight for h3 */
+    color: #f5efef; /* Example color for h3 */
+  }
+  
+  .backers {
+    text-align: center;
+  }
+  .left {
+    left: 0;
+    background-color: #070101;
+  }
+//   .split {
+//     overflow: hidden;
+//     height: 100%;
+//     top: 0;
+//     overflow-x: hidden;
+//     padding-top: 20px;
+//   }
+  
+  /* Control the left side */
+//   .right {
+//     left: 0;
+//   }
+  
+  .centered img {
+    width: 100px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .gallery {
+    display: flex;
+    background-color: black;
+    margin: 15px;
+    width: 180px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .card-body-head {
+      font-size: 1.5rem; /* Adjusted font size for medium screens */
+    }
+  
+    .para-container {
+      padding: 0 10px; /* Adjusted padding for smaller screens */
+    }
+  
+    .para {
+      margin-top: 1.5rem; /* Adjusted margin top for smaller screens */
+    }
+  
+    .para h1 {
+      font-size: 2rem; /* Adjusted font size for medium screens */
+    }
+  
+    .para h3 {
+      font-size: 1.5rem; /* Adjusted font size for medium screens */
+    }
+  }
+  

@@ -1,0 +1,13 @@
+.fullscreen-black {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white; /* Optionally set text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fullscreen-black a {
+    color: white; /* Optionally set link color */
+  }
