@@ -1,4 +1,11 @@
-# MyLync
+#Deployment link in Netlify: https://dapper-sorbet-608136.netlify.app/
+https://app.netlify.com/sites/dapper-sorbet-608136/overview
+****
+
+Checkout the project from repo **-LYNC-UI-Developer-Task---Manimozhi**
+run the following commands to build and deploy in local 
+  ng build
+  ng serve -o
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
 
